@@ -7,7 +7,6 @@ A beginner-friendly ML project that predicts a student's **final marks** based o
 
 This project uses **synthetic data**, a **Linear Regression model**, and simple visualization to help students and educators understand performance trends.
 
----
 
 ## Project Overview
 
@@ -18,7 +17,6 @@ This notebook builds a **machine learning regression model** to estimate student
 - Built to run in under 5 minutes  
 - Modular, readable, and beginner-friendly  
 
----
 
 ## Features
 
@@ -29,7 +27,6 @@ This notebook builds a **machine learning regression model** to estimate student
 - Visualization of actual vs predicted marks
 - Optional prediction form to try your own inputs
 
----
 
 ## Project Structure
 
@@ -38,7 +35,6 @@ Student_Performance_Predictor.ipynb   ← Main Jupyter Notebook
 README.md                             ← You're here!
 ```
 
----
 
 ## Dependencies
 
@@ -48,7 +44,6 @@ Installation of the following libraries if you don't already have them:
 pip install pandas numpy matplotlib seaborn scikit-learn faker
 ```
 
----
 
 ## How to Run
 
@@ -57,7 +52,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn faker
 3. Run all cells from top to bottom (Ctrl + F9 in Colab)
 4. Optional: Input your own values to test custom predictions
 
----
 
 ## Model Evaluation
 
@@ -69,7 +63,6 @@ The model is a simple **Linear Regression**, evaluated using:
 > Accuracy varies slightly with random data, but R² typically ranges from **0.85–0.92**  
 > (Decent for a toy model with just 3 features!)
 
----
 
 ## Try It Yourself
 
@@ -81,7 +74,6 @@ custom_prev_marks = 75
 ```
 ...and the model will predict final marks based on those inputs!
 
----
 
 ## Educational Value
 
@@ -93,7 +85,6 @@ custom_prev_marks = 75
 - Simulate how student performance might be influenced by behavior and history.
 - Use as a teaching tool for regression and ML fundamentals.
 
----
 
 ## License
 
